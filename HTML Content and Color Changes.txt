@@ -1,0 +1,8 @@
+// Selects the first "h1" tag in the document
+const myHeading = document.querySelector("h1");
+
+// Changes the inner text content of the heading we selected
+myHeading.innerText = "JavaScript Hello World";
+
+// Changes the text color of the heading we selected
+myHeading.style.color = "blue";

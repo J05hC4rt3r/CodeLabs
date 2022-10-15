@@ -1,0 +1,13 @@
+<script>
+  // Selects the first <h1> element
+  const headingOne = document.querySelector("h1");
+
+  // Selects the element with a class name of "heading-two"
+  const headingTwo = document.querySelector(".heading-two");
+
+  // Changes the "headingOne" variable's text content
+  headingOne.innerText = "Updated Hello World From JavaScript!";
+
+  // Changes the "headingTwo" variable's text color
+  headingTwo.style.color = "#134e4a";
+</script>
